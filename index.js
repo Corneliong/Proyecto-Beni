@@ -1,10 +1,16 @@
-    var alumno1 = new Object;
-    alumno1.matricula = 1322134042;
-    alumno1.nombre = "Diego";
-    alumno1.apellido = "Navarro";
-    alumno1.anio_nacimiento = 2004;
-    alumno1.presentacion = function(){
-        let anios = 2023-this.anio_nacimiento;
-        let texto = "hola mi nombre es " + this.nombre + "  "+ this.apellidos + ",  tengo "+ anios +" años";
+    var materia1 = new Object;
+    materia1.creditos = "3";
+    materia1.nombre = "Procesos de desarrollo";
+    materia1.profesor = "Ana Angelica Sanchez Villegas";
+    materia1.periodo = "Enero - Abril";
+    materia1.cuatrimestre = "segundo cuatrimestre"
+    materia1.presentacion = function(){
+        let texto = "Nombre de la materia" + "  " + this.nombre + "  "+ "Nombre del profesor" + "  " + this.profesor + "  " + "creditos recibidos" + "  " + this.creditos  ;
         return texto;
+    }
+    materia1.periodo = function(){
+        let texto = "Periodo" + "  " + this.periodo + "  " + "cuatrimestre" + this.cuatrimestre ;
+        return texto;
+
+
     }
