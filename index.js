@@ -8,9 +8,9 @@
         let texto = "Nombre de la materia" + "  " + this.nombre + "  "+ "Nombre del profesor" + "  " + this.profesor + "  " + "creditos recibidos" + "  " + this.creditos  ;
         return texto;
     }
-    materia1.periodo = function(){
-        let texto = "Periodo" + "  " + this.periodo + "  " + "cuatrimestre" + this.cuatrimestre ;
-        return texto;
+    materia1.curso = function(){
+        let texto1 = "Periodo" + "  " + this.periodo + "  " + "cuatrimestre" + "  " + this.cuatrimestre ;
+        return texto1;
 
 
     }
